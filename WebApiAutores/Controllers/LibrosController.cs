@@ -20,8 +20,8 @@ namespace WebApiAutores.Controllers
             //                                  //Lo que hacemos es que voy a consultar a un libro,
             //                                  //  pero tambien quiero que me traiga informacion
             //                                  //  del autor.
-            var a = await _context.Libros.Include(x => x.Autor).FirstOrDefaultAsync(x => x.id == id);
-            return a;
+            return await _context.Libros
+                .Include(x => x.Autor).FirstOrDefaultAsync(x => x.id == id);
         }
 
         [HttpPost]

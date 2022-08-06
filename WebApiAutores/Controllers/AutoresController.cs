@@ -20,7 +20,10 @@ namespace WebApiAutores.Controllers
             //                                              //Como vamos a comunicarnos con una
             //                                              //  una DB la buena practica es usar
             //                                              //  programacion asincrona.
-            return await _context.Autores.ToListAsync();
+
+            //                                              //Con Include pedimos que tambien me incluya informacion de
+            //                                              //  de los libros.
+            return await _context.Autores.Include(x => x.Libros).ToListAsync();
         }
 
         [HttpPost]
