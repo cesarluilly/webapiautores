@@ -1,5 +1,10 @@
-# webapiautores
+# SECCION 2 y 3 del curso UdemyCurso 
 
+![UdemyCurso](./imgReadme/UdemyCurso.jpg)
+https://www.udemy.com/course/construyendo-web-apis-restful-con-aspnet-core/
+
+# webapiautores
+![seccion2](./imgReadme/)
 
 ## Instalamos los Paquetes de ORM Y TOOLS para usar EntityFramework.
 
