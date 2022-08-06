@@ -17,8 +17,10 @@ eso que no es recomendable agregarlos en el codigo.
 
 ### Pasos para generar nuestra DB a partir de las Entitys.
 
-* > `Add-Migration Inicial`
-* > `Update-Database`
+*   > - `Add-Migration Inicial` 
+    > - Desde cmd `dotnet ef migrations add nameCustom`
+*   > `Update-Database`
+    > Desde cmd `dotnet ef database update`
 
 # 22 Leyendo y Creando Recursos desde el Controlador
 
