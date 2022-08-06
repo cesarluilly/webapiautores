@@ -20,6 +20,10 @@ eso que no es recomendable agregarlos en el codigo.
 * > `Add-Migration Inicial`
 * > `Update-Database`
 
+# 22 Leyendo y Creando Recursos desde el Controlador
+
+**NOTA** Como buena practica siempre que vamos a comunicarnos
+con una DB, hay que utilizar programacion asincrona.
 
 
 
